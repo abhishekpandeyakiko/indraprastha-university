@@ -1086,6 +1086,7 @@ ul {
 
     .about-collage {
         height: 400px;
+        min-width: 300px;
     }
 
     .about-grid {
@@ -1114,6 +1115,10 @@ ul {
 
     .stat-icon {
         margin-bottom: 15px;
+    }
+
+    .container-fluid {
+        padding: 0 15px;
     }
 }
 
