@@ -1,0 +1,307 @@
+/* =========================================
+   FOOTER STYLES (Deep Teal Theme)
+   ========================================= */
+
+.main-footer {
+    background: #2d545e;
+    /* Deep Teal Base */
+    color: #fff;
+    padding-top: 20px;
+    font-family: 'Rubik', sans-serif;
+}
+
+.footer-top {
+    padding: 30px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer-col {
+    margin-bottom: 30px;
+}
+
+/* Col 1 Brand */
+.footer-logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 25px;
+    color: #fff;
+}
+
+.footer-logo i {
+    color: #fff;
+}
+
+.logo-text {
+    display: flex;
+    flex-direction: column;
+    font-weight: 700;
+    font-size: 1.1rem;
+    line-height: 1.2;
+}
+
+.contact-grid {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 10px 20px;
+    margin-bottom: 30px;
+}
+
+.contact-item label {
+    font-size: 0.9rem;
+    color: #a3c2c7;
+    font-weight: 500;
+}
+
+.contact-item p,
+.contact-item a {
+    font-size: 0.95rem;
+    color: #fff;
+    margin: 0;
+}
+
+.contact-item a:hover {
+    text-decoration: underline;
+}
+
+/* Horizontal Contact Row */
+.contact-row {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.contact-row .contact-item {
+    display: flex;
+    flex-direction: column;
+}
+
+/* App Buttons */
+.app-buttons {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+.app-btn {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: #000;
+    padding: 8px 15px;
+    border-radius: 8px;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.app-btn:hover {
+    background: #333;
+    transform: translateY(-2px);
+}
+
+.app-btn i {
+    font-size: 1.5rem;
+}
+
+.app-text {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.1;
+}
+
+.app-text small {
+    font-size: 0.6rem;
+    text-transform: uppercase;
+}
+
+.app-text span {
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+/* Social Row */
+.social-links-row {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.social-links-row span {
+    color: #a3c2c7;
+    font-size: 0.95rem;
+}
+
+.social-links-row a {
+    width: 35px;
+    height: 35px;
+    background: rgba(255, 255, 255, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 24px;
+    color: #fff;
+    transition: 0.3s;
+}
+
+.social-links-row a:hover {
+    background: #fff;
+    color: #2d545e;
+}
+
+/* Headings */
+.footer-col h4 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.8rem;
+    margin-bottom: 35px;
+    font-weight: 600;
+    color: #fff;
+    position: relative;
+}
+
+.footer-col h4:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    width: 50px;
+    height: 2px;
+    background: rgba(255, 255, 255, 0.3);
+}
+
+/* Links */
+.footer-links {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li {
+    margin-bottom: 15px;
+}
+
+.footer-links a {
+    color: #a3c2c7;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: 0.3s;
+    display: inline-block;
+}
+
+.footer-links a:hover {
+    color: #fff;
+    transform: translateX(5px);
+}
+
+/* Newsletter */
+.newsletter-col p {
+    color: #a3c2c7;
+}
+
+/* Footer Logo Image */
+.footer-logo-img {
+    height: 85px;
+    width: auto;
+    object-fit: contain;
+}
+
+
+.newsletter-form .input-group {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.newsletter-form input {
+    width: 100%;
+    background: rgba(255, 255, 255, 0.08);
+    /* Transparent dark */
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 15px;
+    color: #fff;
+    border-radius: 6px;
+    font-size: 0.95rem;
+}
+
+.newsletter-form input:focus {
+    outline: none;
+    border-color: rgba(255, 255, 255, 0.4);
+}
+
+.newsletter-form button {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    height: 40px;
+    width: 40px;
+    background: rgba(255, 255, 255, 0.15);
+    border: none;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.newsletter-form button:hover {
+    background: #fff;
+    color: #2d545e;
+}
+
+.checkbox-group {
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+}
+
+.checkbox-group input {
+    width: auto;
+    margin-top: 5px;
+}
+
+.checkbox-group label {
+    font-size: 0.85rem;
+    color: #a3c2c7;
+    line-height: 1.4;
+}
+
+.checkbox-group a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.footer-graphic {
+    margin-top: 30px;
+    opacity: 0.05;
+    font-size: 10rem;
+    position: absolute;
+    right: -20px;
+    bottom: -20px;
+    transform: rotate(-20deg);
+    pointer-events: none;
+}
+
+.newsletter-col {
+    position: relative;
+    overflow: hidden;
+}
+
+/* Footer Bottom */
+.footer-bottom {
+    padding: 25px 0;
+    text-align: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+    /* Subtle separator */
+}
+
+.footer-bottom p {
+    color: #8daeb3;
+    font-size: 0.9rem;
+    margin: 0;
+}
+
+@media (min-width: 992px) {
+    .footer-top .row {
+        display: grid;
+        grid-template-columns: 1.5fr 1fr 1fr 1.2fr;
+        gap: 40px;
+    }
+}
