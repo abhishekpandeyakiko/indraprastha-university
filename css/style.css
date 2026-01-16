@@ -3081,6 +3081,9 @@ ul {
 
 /* Mobile (Max 768px) */
 @media (max-width: 768px) {
+    .top-bar .container-fluid {
+        justify-content: center !important;
+    }
 
     /* Headings */
     .slide-title {
